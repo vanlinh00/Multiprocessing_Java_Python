@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-25T03:57:43.265Z",
+  "reportDate": "2026-11-25",
+  "schedulerEnabled": true,
+  "totalExecutions": 2,
+  "successfulExecutions": 2,
+  "failedExecutions": 0,
+  "totalFilesCleaned": 4,
+  "totalBytesFreed": 264,
+  "pendingTempFiles": 0,
+  "lastCleanupAt": "2026-11-25T03:57:43.248Z",
+  "recentExecutions": [
+    {
+      "executionId": "3143c115-147a-4b8c-816c-3efa18625164",
+      "jobId": "daily-cleanup",
+      "jobName": "DailyCleanupJob",
+      "trigger": "MANUAL",
+      "startedAt": "2026-11-25T03:57:42.171Z",
+      "finishedAt": "2026-11-25T03:57:43.248Z",
+      "durationMs": 1077,
+      "exitCode": 0,
+      "pid": 136,
+      "success": true,
+      "outputLines": [
+        "Cleaned 4 temporary files successfully! (264 bytes freed)"
+      ],
+      "metrics": {
+        "workspace": "/app/applet/tmp_workspace",
+        "dry_run": false,
+        "cleaned_count": 4,
+        "bytes_freed": 264,
+        "files": [
+          "session_1795579062151_1.tmp",
+          "session_1795579062151_2.tmp",
+          "session_1795579062151_3.tmp",
+          "session_1795579062151_4.tmp"
+        ]
+      }
+    },
+    {
+      "executionId": "aa40fcce-7422-4adc-995d-90cd69e892a2",
+      "jobId": "daily-cleanup",
+      "jobName": "DailyCleanupJob",
+      "trigger": "SCHEDULED",
+      "startedAt": "2026-11-25T03:57:36.678Z",
+      "finishedAt": "2026-11-25T03:57:37.841Z",
+      "durationMs": 1163,
+      "exitCode": 0,
+      "pid": 129,
+      "success": true,
+      "outputLines": [
+        "Cleaned 0 temporary files successfully! (0 bytes freed)"
+      ],
+      "metrics": {
+        "workspace": "/app/applet/tmp_workspace",
+        "dry_run": false,
+        "cleaned_count": 0,
+        "bytes_freed": 0,
+        "files": []
+      }
+    }
+  ]
+}
